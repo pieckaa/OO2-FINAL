@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B99E0E1F-7CC9-4293-B0CA-93D02D8B98F5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OOP2</RootNamespace>
+    <AssemblyName>OOP2</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="ReaLTaiizor, Version=3.8.0.5, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ReaLTaiizor.3.8.0.5\lib\net48\ReaLTaiizor.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account.Designer.cs">
+      <DependentUpon>Account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminForm.Designer.cs">
+      <DependentUpon>adminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Browse.Designer.cs">
+      <DependentUpon>Browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Brunei.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Brunei.Designer.cs">
+      <DependentUpon>Brunei.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cambodia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cambodia.Designer.cs">
+      <DependentUpon>Cambodia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="checkFeedbacks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="checkFeedbacks.Designer.cs">
+      <DependentUpon>checkFeedbacks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComboBoxWithRoundCorner .cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="formBucketlist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formBucketlist.Designer.cs">
+      <DependentUpon>formBucketlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Indonesia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Indonesia.Designer.cs">
+      <DependentUpon>Indonesia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laos.Designer.cs">
+      <DependentUpon>Laos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Malaysia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Malaysia.Designer.cs">
+      <DependentUpon>Malaysia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moderateComments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moderateComments.Designer.cs">
+      <DependentUpon>moderateComments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Myanmar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Myanmar.Designer.cs">
+      <DependentUpon>Myanmar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Philippines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Philippines.Designer.cs">
+      <DependentUpon>Philippines.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="prototype.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prototype.Designer.cs">
+      <DependentUpon>prototype.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RichTextBoxInputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoundCornerButtons.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RoundCornerPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RoundCornerTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RoundPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Singapore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Singapore.Designer.cs">
+      <DependentUpon>Singapore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test.Designer.cs">
+      <DependentUpon>test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thailand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thailand.Designer.cs">
+      <DependentUpon>Thailand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimorLeste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimorLeste.Designer.cs">
+      <DependentUpon>TimorLeste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransparentCornersGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Vietnam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vietnam.Designer.cs">
+      <DependentUpon>Vietnam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsMediaPlayer.cs" />
+    <EmbeddedResource Include="Account.resx">
+      <DependentUpon>Account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminForm.resx">
+      <DependentUpon>adminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browse.resx">
+      <DependentUpon>Browse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Brunei.resx">
+      <DependentUpon>Brunei.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cambodia.resx">
+      <DependentUpon>Cambodia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checkFeedbacks.resx">
+      <DependentUpon>checkFeedbacks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formBucketlist.resx">
+      <DependentUpon>formBucketlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Indonesia.resx">
+      <DependentUpon>Indonesia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laos.resx">
+      <DependentUpon>Laos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Malaysia.resx">
+      <DependentUpon>Malaysia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moderateComments.resx">
+      <DependentUpon>moderateComments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Myanmar.resx">
+      <DependentUpon>Myanmar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Philippines.resx">
+      <DependentUpon>Philippines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prototype.resx">
+      <DependentUpon>prototype.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RichTextBoxInputDialog.resx">
+      <DependentUpon>RichTextBoxInputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Singapore.resx">
+      <DependentUpon>Singapore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="test.resx">
+      <DependentUpon>test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thailand.resx">
+      <DependentUpon>Thailand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimorLeste.resx">
+      <DependentUpon>TimorLeste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vietnam.resx">
+      <DependentUpon>Vietnam.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kawasan-falls.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\racay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white star1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow star1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons8-Ios7-Arrows-Back.32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pochita.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no profile1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Presentation %28created from your Doc%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bearing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bearing1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prevLatest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nextLates.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bug and sugg.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

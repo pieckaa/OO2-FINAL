@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="midterm.Account" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIhQBCCACIBQACACAgQACABCIEAgAQAAAIxIIAQA=</HashCode>
+      <FileName>Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="midterm.Browse" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAIyQGCAEABigiAKIEwACAKACBFIgDgQEAQBCAB0=</HashCode>
+      <FileName>Browse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="midterm.register" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAQAECAAIBAAGACAABCCAIgAAAAIAAAAABAAAQE=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="midterm.formBucketlist" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABABCIACIAABwECACFAAACAAIAwAAABAABCAAAAAA=</HashCode>
+      <FileName>formBucketlist.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="midterm.Login" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAQAECAAIBQAOACAARCCAIgAAAAIAAAAABAAAQE=</HashCode>
+      <FileName>Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="midterm.MainMenu" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gYAYIAwACCEAARAACQSgAAgiAEAYQAACAHNIUSCBMAA=</HashCode>
+      <FileName>MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="midterm.Menu" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAIAAECAAAFgACICBCACCABACAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="midterm.Program" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.adminForm" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACggwACCEIAFAACQCgAAEiACA8AQACAHNAUSABEAA=</HashCode>
+      <FileName>adminForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.Brunei" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CREgABAgADBIQhqBCEGFYAACAMGHAgAAgMQFASAQAAA=</HashCode>
+      <FileName>Brunei.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.Cambodia" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CREgABAgADBIQhqBCEGFYAACAMGFAgAAgMQFASAQAAA=</HashCode>
+      <FileName>Cambodia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.checkFeedbacks" Collapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAACCAQgFgIAICBAAACACASEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>checkFeedbacks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.ComboBoxWithPillShape" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAgAAIAAAAAAAKIAAAACAAAAAAQAAAEAQAAAAAE=</HashCode>
+      <FileName>ComboBoxWithRoundCorner .cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.GraphicsExtensions" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>ComboBoxWithRoundCorner .cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.Indonesia" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CREgABAgADBIQhqBCEGFYAACAMGFAgAAgMQFASAQAAA=</HashCode>
+      <FileName>Indonesia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.Laos" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CREgIBAgADBIQhqBCEGFYAACAMEFAgAAgMQFASAQAAA=</HashCode>
+      <FileName>Laos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.Malaysia" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CREgABAgADBIQhqBCEGFYAACAMGFAgAAgMQFASAQAAA=</HashCode>
+      <FileName>Malaysia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.Myanmar" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CREgABAgADBIQhqBCEGFYAACAMGFAgAAgMQFASAQAAA=</HashCode>
+      <FileName>Myanmar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.Philippines" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CREgABAgADBIQhqBCEGFYAACAMGFAgAAgMQFASAQAAA=</HashCode>
+      <FileName>Philippines.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.prototype" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAQEACAAAACAIAAAAAABAAAAABAAAA=</HashCode>
+      <FileName>prototype.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.RichTextBoxInputDialog" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAMACAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>RichTextBoxInputDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.RoundCornerButton" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RoundCornerButtons.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.RoundCornerPictureBox" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RoundCornerPictureBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.RoundCornerTextBox" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAEAAAAAAAAAAAAAAAAAAAAAAAMAABADAAABAA=</HashCode>
+      <FileName>RoundCornerTextBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.RoundPictureBox" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RoundPictureBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.Singapore" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CREgABAgADBIQhqBCEGFYAACAMGFAgAAgMQFASAQAAA=</HashCode>
+      <FileName>Singapore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.test" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oIAAJhlAMCkRQhSAKACgwQCCAiAABBAAFAAYAQBAABA=</HashCode>
+      <FileName>test.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.Thailand" Collapsed="true">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CREgABAgADBIQhqBCEGFYAACAMGFAgAAgMQFASAQAAA=</HashCode>
+      <FileName>Thailand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.TimorLeste" Collapsed="true">
+    <Position X="8" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CREgABAgADBIQhqBCEGFYAACAMGFAgAAgMQFASAQAAA=</HashCode>
+      <FileName>TimorLeste.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.TransparentCornersGroupBox" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TransparentCornersGroupBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP2.Vietnam" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CREgABAgADBIQhqBCEGFYAACAMGFAgAAgMQFASAQAAA=</HashCode>
+      <FileName>Vietnam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
